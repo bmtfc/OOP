@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>771</width>
+      <height>230</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="book_set">
+         <property name="text">
+          <string>Set book</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="book_name"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="book_number_of_pages"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="book__size_of_page"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="book_number"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="book_author"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="inf_p">
+         <property name="text">
+          <string>Період</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QPushButton" name="magazine_set">
+         <property name="text">
+          <string>Set magazine</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="magazine_name"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="magazine_number_of_pages"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="magazine_size_of_page"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="magazine_number"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="inf_a">
+         <property name="text">
+          <string>Автор</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="magazine_period"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="am_set">
+         <property name="text">
+          <string>Set AM</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_name"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_number_of_pages"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_size_of_page"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_number"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_author"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="am_period"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>771</width>
+      <height>138</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="4" column="2">
+      <widget class="QLabel" name="am_res2">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="book_res">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="am_res1">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="magazine_res">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="book_paper">
+       <property name="text">
+        <string>Затрати паперу книга</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="am_paperd">
+       <property name="text">
+        <string>Затрати паперу авторський журнал</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="am_paper">
+       <property name="text">
+        <string>Затрати паперу авторський журнал</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="days">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="magazine_paper">
+       <property name="text">
+        <string>Затрати паперу журнал</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>804</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
