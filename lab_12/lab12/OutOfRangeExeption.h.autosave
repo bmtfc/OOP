@@ -1,0 +1,9 @@
+#ifndef OUTOFRANGEEXEPTION_H
+#define OUTOFRANGEEXEPTION_H
+#include <exception>
+class OutOfRangeExeption: public std::exception {
+    const char *what(){
+        return "NumberFormatException";
+    }
+};
+#endif // OUTOFRANGEEXEPTION_H
